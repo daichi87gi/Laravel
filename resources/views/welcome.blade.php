@@ -3,24 +3,30 @@
 @section('content')
     <div class="row">
         <div class="col-md-12">
-            <h1>Control Structures</h1>
-            @if(true)
-                <p>this only display if it is true</p>
-            @else
-                <p>this only displays if it is false</p>
-            @endif
-            <hr>
-            @for($i = 0; $i < 5; $i++)
-                <p>{{ $i + 1 }}.Iteration</p>
-            @endfor
-            <hr>
-            <h2>XSS</h2>
-            {{ "<script>alert('Hello');</script>" }}
-            {!! "<script>alert('Hello');</script>" !!}}
-            <hr>
-            <p>{{ "Hello" }}</p>
-            <p>{{ 2 == 2 ? "Equal" : "Does not equal" }}</p>
-            <p>{{ 2 == 3 ? "Equal" : "Does not equal" }}</p>
+            <p class="quote">The beautiful Laravel</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h1 class="post-title">Learning Laravel</h1>
+            <p>This blog post will get you right on track with Laravel!</p>
+            <p><a href="#">Read more...</a></p>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h1 class="post-title">The next Steps</h1>
+            <p>Understanding the Basics is great, but you need to be able to make the next steps.</p>
+            <p><a href="#">Read more...</a></p>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h1 class="post-title">Laravel 5.3</h1>
+            <p>Though announced as a "minor release", Laravel 5.3 ships with somer very interesting additions and features.</p>
+            <p><a href="#">Read more...</a></p>
         </div>
     </div>
 @endsection
