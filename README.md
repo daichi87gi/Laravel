@@ -1,19 +1,20 @@
 # Laravel
 
-A Laravel practise project. This project is using:
+A Laravel practise project. This project uses:
 
-* PHP7
+* PHP 7
 * XAMPP
 * Bootstrap 4.x
 
-## Laravel IDE Helper
-https://github.com/barryvdh/laravel-ide-helper
+## Random Notes
 
-## Useful Commands
+### Useful Commands
 
 Clear the cash of views: `php artisan view:clear`
 
-## Random Notes
+### Laravel IDE Helper
+
+https://github.com/barryvdh/laravel-ide-helper
 
 ### Request and Responses
 
@@ -23,7 +24,7 @@ Dependency Injection (a good practise in general)
 
 `$request->input('mail')`
 
-Facades (/fa-sei-des/)
+Facades
 
 `Request::input("mail')`
 
@@ -37,3 +38,4 @@ Facades (/fa-sei-des/)
 `return redirect()->route('admin.index')->with('info', 'Post edited, new Title: ' . $request->input('title'));`
 
 ### Controllers and Models
+
