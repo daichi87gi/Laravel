@@ -2,7 +2,9 @@
 
 namespace App;
 
-class Post
+use Illuminate\Database\Eloquent\Model;
+
+class Post extends Model
 {
     public function getPosts($session)
     {
@@ -15,7 +17,7 @@ class Post
     public function getPost($session, $id)
     {
         if (!$session->has('posts')) {
-            $this->createDummyData();
+            $this->createDummyData($session);
         }
         return $session->get('posts')[$id];
     }
@@ -23,7 +25,7 @@ class Post
     public function addPost($session, $title, $content)
     {
         if (!$session->has('posts')) {
-            $this->createDummyData();
+            $this->createDummyData($session);
         }
         $posts = $session->get('posts');
         array_push($posts, ['title' => $title, 'content' => $content]);
