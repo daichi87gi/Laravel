@@ -18,7 +18,7 @@ A Laravel practise project. This project uses:
 ### Learning Resources
 
 * [Laravel 5.6 Documentations](https://laravel.com/docs/5.6)
-* [Pluralsight: Getting Started with Laravel (PHP Framework) - The Basics by Max Schwarzmueller](https://app.pluralsight.com/library/courses/laravel-php-framework-getting-started-the-basics/table-of-contents)
+* [Pluralsight: Getting Started with Laravel (PHP Framework) - The Basics by Max Schwarzmueller](https://app.pluralsight.com/library/courses/laravel-php-framework-getting-started-the-basics/table-of-contents) (Completed)
 * [Pluralsight: Getting Started with Laravel (PHP Framework) - Models and Data by Max Schwarzmueller](https://app.pluralsight.com/library/courses/laravel-php-framework-getting-started-models-data/table-of-contents)
 * [Pluralsight: RESTful Web Services with PHP and Laravel by Max Schwarzmueller](https://app.pluralsight.com/library/courses/php-laravel-restful-web-services/table-of-contents)
 * [Pluralsight: Play by Play: Getting Started with Laravel 5 with Steven Maguire](https://app.pluralsight.com/library/courses/play-by-play-laravel-5-getting-started/table-of-contents)
